@@ -1,0 +1,27 @@
+.wrapper {
+  border-radius: 18px;
+  background-color: #1b1d22;
+}
+
+.title {
+  position: relative;
+  box-shadow: none;
+  width: auto;
+
+  &::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    height: 75%;
+    width: 1px;
+    background-color: #666967;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.content {
+  width: auto;
+  box-shadow: none;
+}
